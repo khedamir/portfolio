@@ -1,0 +1,57 @@
+@import '../../scss/variables';
+
+.about {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: $section-padding 24px;
+
+    .aboutTitle {
+        .title {
+            font-size: 85px;
+            color: $gray;
+            padding: 0 18px;
+            line-height: 90px;
+        }
+    
+        .description {
+            display: flex;
+            align-items: center;
+            margin: 24px 0;
+            gap: 10px;
+    
+            p {
+                font-size: 24px;
+                color: $blue;
+            }
+        }
+
+        button {
+            font-size: 20px;
+        }
+    }
+
+    .avatar {
+        position: relative;
+        overflow: hidden;
+        border: 4px solid $blue;
+        border-radius: 15px;
+
+        img {
+            width: 450px;
+            height: 550px;
+            object-fit: cover;
+            display: block;
+        }
+
+        .shadow {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            background-color: $black;
+            background: linear-gradient(0deg, $blue 0%, $orange 100%);
+            z-index: 1;
+            opacity: 0.5;
+        }
+    }
+}

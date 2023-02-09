@@ -1,0 +1,27 @@
+@import './variables';
+@import './libs/normalize';
+
+@import './pages/all';
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&display=swap');
+
+body {
+  background-color: $background;
+}
+
+.tag {
+  font-style: italic;
+  color: $tag;
+  font-family: 'Dancing Script', cursive;
+  font-size: 24px;
+  line-height: 21px;
+}
+
+.App {
+  max-width: $desktop-width;
+  margin: auto;
+}
+
+.container {
+  margin-top: 98px;
+}

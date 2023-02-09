@@ -1,0 +1,50 @@
+@import '../../scss/variables';
+
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+.root {
+    background-color: $black;
+    position: fixed;
+    width: 100%;
+    left: 0;
+    border-bottom: 1px solid $blue;
+    box-shadow: 0px 20px 40px -15px  $black;
+}
+
+.header {
+    max-width: $desktop-width;
+    margin: auto;
+    padding: 2px 18px;
+    .wrapper {
+        display: flex;
+        justify-content: space-between;
+        padding: 8px 16px;
+        align-items: center;
+
+        div > a {
+            font-size: 36px;
+        }
+    }
+}
+
+.nav {
+    .navItems {
+        display: flex;
+        align-items: center;
+
+        a {
+            color: $gray;
+            padding: 0 12px;
+            font-size: 20px;
+
+            &:hover {
+                color: $blue;
+                text-decoration: underline;
+            }
+
+            button {
+                font-size: 18px;
+            }
+        }
+    }
+}
