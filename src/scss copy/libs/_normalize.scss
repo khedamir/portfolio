@@ -1,13 +1,9 @@
-@font-face {
-  font-family: "Neue Montreal";
-  src: url('../fonts/NeueMontreal/NeueMontreal-Regular.otf');
-}
-
 * {
   padding: 0;
   margin: 0;
   list-style: none;
   outline: none;
+  font-family: 'Belleza', Roboto, system-ui, Tahoma, sans-serif;
   box-sizing: border-box;
 }
 
@@ -19,30 +15,28 @@ html {
 body {
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
+  color: $black;
 }
 
 a,
 span,
 p,
-b {
-  font-family: Roboto, system-ui, Tahoma, sans-serif;
-}
-
+b,
 h1,
 h2,
 h3,
 h4,
 h5 {
-  font-family: 'Neue Montreal', Roboto, system-ui, Tahoma, sans-serif;
+  color: $black;
 }
 
 h1 {
-  // font-size: 48px;
+  font-size: 48px;
 }
 
 h2 {
-  // font-weight: 600;
-  // font-size: 28px;
+  font-weight: 600;
+  font-size: 28px;
 }
 
 a {

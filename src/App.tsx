@@ -1,19 +1,18 @@
 import React from 'react';
 import Header from './components/Header';
+import Tag from './components/Tag';
 import Home from './pages/Home';
 import './scss/app.scss';
 
 function App() {
   return (
     <div className="App">
-      <span className='tag'>{'<body>'}</span>
-      <Header />
-      <div className='container'>
+      <Tag tag='body'>
+        <Header />
         <Home />
-      </div>
-      <span className='tag'>{'</body>'}</span>
+      </Tag>
     </div>
   );
 }
 
-export default App
+export default App;

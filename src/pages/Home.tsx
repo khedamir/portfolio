@@ -1,15 +1,17 @@
-import React from 'react'
-import About from '../components/About'
-import ProjectItem from '../components/ProjectItem'
-import '../scss/pages/_home.scss'
+import React from 'react';
+import About from '../components/About';
+import MySelf from '../components/MySelf';
+import Works from '../components/Works';
+import '../scss/pages/_home.scss';
 
 const Home: React.FC = () => {
   return (
-    <div>
+    <div className='home'>
       <About />
-      <ProjectItem />
+      <Works />
+      {/* <MySelf /> */}
     </div>
-  )
-}
+  );
+};
 
-export default Home
+export default Home;

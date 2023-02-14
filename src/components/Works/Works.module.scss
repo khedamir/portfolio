@@ -1,0 +1,26 @@
+@import '../../scss/variables';
+
+.works {
+  header {
+    margin-bottom: 32px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+}
+
+.worksButton {
+  display: block;
+  margin-top: 20px;
+
+  button {
+    font-size: 1.4rem;
+  }
+}
+
+.workItems {
+  display: grid;
+  grid-template-columns: repeat(5, calc($desktop-width/5));
+  grid-template-rows: repeat(2, calc($desktop-width/5));
+  // margin: 0 24px;
+}

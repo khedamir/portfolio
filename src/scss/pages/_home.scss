@@ -1,2 +1,21 @@
 @import '../variables';
 
+.home {
+  margin-top: 102px;
+}
+
+header {
+  padding-left: 14px;
+
+  h2 {
+    font-size: 4.5rem;
+    color: $blue;
+  }
+
+  p {
+    color: #fff;
+    font-size: 1.5rem;
+    max-width: 800px;
+
+  }
+}
