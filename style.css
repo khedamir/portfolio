@@ -134,6 +134,12 @@ img {
   display: inline-block;
   margin-bottom: 6px;
   font-size: 18px;
+  color: #217074;
+  font-weight: bold;
+}
+
+.other-projects li {
+  margin-bottom: 16px;
 }
 
 @media (max-width: 760px) {
